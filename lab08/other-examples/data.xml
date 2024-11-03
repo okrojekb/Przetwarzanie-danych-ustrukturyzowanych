@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageGroup xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message https://www.ecb.europa.eu/stats/shared/download/stats/vocabulary/sdmx/2.0/SDMXMessage.xsd">
+<Header>
+	<ID>IREF000001</ID>
+	<Test>false</Test>
+
+	<Prepared>2019-05-23T16:48:37Z</Prepared>
+	<Sender id="4F0">
+		<Name xml:lang="en" >European Central Bank</Name>
+		<Contact>
+		<Department xml:lang="en" >DG Statistics</Department>
+		<URI>mailto:statistics@ecb.europa.eu</URI></Contact>
+	</Sender>
+	<Extracted>2019-05-23T16:48:37Z</Extracted>
+</Header>
+<DataSet action="Replace" xmlns="http://www.ecb.int/vocabulary/stats/exr" xsi:schemaLocation="http://www.ecb.int/vocabulary/stats/exr https://stats.ecb.int/stats/vocabulary/exr/2006-05-15/sdmx-compact.xsd">
+	<Group FREQ.18="A" CURRENCY.18="CHF" CURRENCY_DENOM.18="EUR" EXR_TYPE.18="SP00" EXR_SUFFIX.18="A" TITLE="Swiss franc/Euro" UNIT="CHF" UNIT_MULT="0" DECIMALS="4" TITLE_COMPL="ECB reference exchange rate, Swiss franc/Euro, 2:15 pm (C.E.T.)" SOURCE_AGENCY="4F0"/>
+		<Series FREQ.18="A" CURRENCY.18="CHF" CURRENCY_DENOM.18="EUR" EXR_TYPE.18="SP00" EXR_SUFFIX.18="A" TIME_FORMAT="P1Y" COLLECTION="A">
+			<Obs TIME_PERIOD="1999" OBS_VALUE="1.6003" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2000" OBS_VALUE="1.5579" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2001" OBS_VALUE="1.5105" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2002" OBS_VALUE="1.4670" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2003" OBS_VALUE="1.5212" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2004" OBS_VALUE="1.5438" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2005" OBS_VALUE="1.5483" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2006" OBS_VALUE="1.5729" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2007" OBS_VALUE="1.6427" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2008" OBS_VALUE="1.5874" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2009" OBS_VALUE="1.5100" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2010" OBS_VALUE="1.3803" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2011" OBS_VALUE="1.2326" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2012" OBS_VALUE="1.2053" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2013" OBS_VALUE="1.2311" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2014" OBS_VALUE="1.2146" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2015" OBS_VALUE="1.0679" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2016" OBS_VALUE="1.0902" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2017" OBS_VALUE="1.1117" OBS_STATUS="A" />
+			<Obs TIME_PERIOD="2018" OBS_VALUE="1.1550" OBS_STATUS="A" />
+</Series>
+</DataSet>
+</MessageGroup>

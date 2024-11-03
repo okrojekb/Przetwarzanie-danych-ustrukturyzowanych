@@ -1,0 +1,113 @@
+---
+title: "lab10_markdown"
+author: "Bogumiła Okrojek"
+date: "5/10/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+MarkdownGuide - porady
+
+pomiedzy '''  i ''' piszemy kod, przy czym po pierwszych w "{}" podajemy jezyk
+
+mozna to stworzyc CTRL + ALT + I
+
+include = FALSE oznacza, ze nie wyswietla sie okienko z kodem, ani z outputem
+
+default - wyswietla okienko z kodem i pod nim okienko z outputem
+
+mozna dodac do tekstu zmienna, ustalana w trakcie dzialania, fragment kodu, ktory wyswietli w tym miejscu wynik operacji
+robi sie to w ''
+
+ilosc # przed linijka nadaje jej styl naglowka - im wiecej # tym mniejszy naglowek do 6 (po # musi byc spacja; i przed i po naglowku w kodzie powinien byc pusta linijka)
+
+do rozdzielenia paragrafow robi sie linie przerwy miedzy nimi
+
+lamanie linii  '<br>'znacznikiem
+
+Pomiedzy * *jest kursywa*
+
+Pomiedzy ** **jest pogrubiony tekst**
+
+pomiedzy *** ***jest kursywa i pogrubiony***
+
+Pomiedzy tymi ciapkami przy ~ `napisany jest tekst techniczna czcionka`
+
+pojedynczy '-' to lacznik, aby napisac myslnik  '--' trzeba napisac 2 laczniki
+
+Mozna formatowac linki - np. pogrubic **
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+## Tabele
+
+-bez 'knitr'a
+```{r}
+mtcars[1:5,]
+```
+
+- z uzyciem 'knitr'a
+```{r}
+library(knitr)
+kable(mtcars[1:5,])
+```
+
+
+## Wykresy
+
+```{r echo = FALSE, fig.cap="Rysunek 1"}
+plot(rnorm(100))
+```
+
+## Listy
+
+Mozna zagniezdzac listy -- im  bardziej wewnetrzny element tym wiecej tabow przez nim w linijce
+
+- lista
+  - nienumerowana
+- kolejne elementy od (`-`)
+
+1. lista
+2. numerowana
+3. kolejne elementy od (numer elementu).
+
+
+
+
+## Cytaty blokowe
+
+> Cytat
+
+
+## Obrazki
+
+obrazek wstawia sie ! potem [] potem w () link do obrazka lub sciezke
+
+OverLeaf - edytor Tex'a w przegladarce
+
+## Uzycie TeX'a
+
+w internecie sa opisy - sa: lietry greckie, znaki, kwantyfikatory itd
+
+ulamek 1/2
+
+$\frac{1}{2}$
+
+jak najedzie sie na fragment kodu w tex to wyswietla sie podglad
+
+calka
+
+$\int_0^{\infty} x^2 \mathrm{d}x$
+
+to mathrm jest po to, zeby to d nie bylo kursywa, niektorzy sie tego czepiaja
+
+$\sum_{i=1^n} \frac{1}{i}$
+
+
+

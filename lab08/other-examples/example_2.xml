@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- source: https://archive.org/download/stackexchange -->
+<badges>
+  <row Id="1" UserId="1" Name="Autobiographer" Date="2013-09-24T18:30:15.230" Class="3" TagBased="False" />
+  <row Id="2" UserId="3" Name="Autobiographer" Date="2013-09-24T18:45:14.720" Class="3" TagBased="False" />
+  <row Id="4" UserId="5" Name="Autobiographer" Date="2013-09-24T18:50:14.543" Class="3" TagBased="False" />
+  <row Id="5" UserId="6" Name="Autobiographer" Date="2013-09-24T18:50:14.543" Class="3" TagBased="False" />
+  <row Id="6" UserId="7" Name="Autobiographer" Date="2013-09-24T18:50:14.543" Class="3" TagBased="False" />
+</badges>
